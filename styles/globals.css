@@ -1,4 +1,21 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.undone .checkedIcon, .inProgress .checkedIcon{
+  display: none;
+}
+
+.inProgress{
+  @apply animate-pulse
+}
+
+.undone{
+  @apply opacity-30
+}
+
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +121,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

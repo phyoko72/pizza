@@ -1,0 +1,42 @@
+.slideContainer{
+    background: green;
+    width: fit-content;
+    height: 100%;
+    /* padding: 20px; */
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+ 
+.slider{
+    background: gold;
+    width: 1280px;
+    padding: 15px;
+    position: relative;
+}
+
+.slide{
+    object-fit: cover;
+    /* max-width: 100%; */
+}
+
+.arrowContainer{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 0; 
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.fill{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: transparent;
+}

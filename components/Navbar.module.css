@@ -1,0 +1,12 @@
+.countBadge{
+    top: -12px;
+    right: -15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d1411e;
+}
