@@ -1,14 +1,11 @@
 .slideContainer{
-    background: green;
     width: fit-content;
     height: 100%;
-    /* padding: 20px; */
     display: flex;
     transition: all 1s ease-in-out;
 }
  
 .slider{
-    background: gold;
     width: 1280px;
     padding: 15px;
     position: relative;

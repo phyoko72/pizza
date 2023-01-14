@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import style from './Feature.module.css';
-import WindowTracker from "./WindowTracker";
+
 const Feature = () => {
 
     const images = [1,2,3]
